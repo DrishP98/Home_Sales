@@ -25,7 +25,7 @@ Answer the following questions using SparkSQL:
 12. Verify that the home_sales temporary table is uncached using PySpark.
 13. Download your Home_Sales.ipynb file and upload it into your "Home_Sales" GitHub repository.
 
-### Compare the runtimes:
+### My runtimes compared:
 * Original uncached table was the slowest with 1.2908475399017334 seconds runtime.
 * Cached table had the fastest run time with 0.5397417545318604 seconds.
 * The partitioned parquet table was faster than the original query but still slower than the cached table with 1.1816985607147217 seconds runtime.
